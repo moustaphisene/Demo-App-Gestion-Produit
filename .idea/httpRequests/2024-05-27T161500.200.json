@@ -1,0 +1,37 @@
+[
+  {
+    "id": "779319b6-615f-44ea-93bf-cd9b236271e3",
+    "name": "Laptop",
+    "price": 7998727.0,
+    "quantity": 838,
+    "description": "Portable Computer"
+  },
+  {
+    "id": "f40ccf19-8b4a-4b6b-acb5-be08762a486d",
+    "name": "Destop",
+    "price": 999922.0,
+    "quantity": 88,
+    "description": "Desktop Computer"
+  },
+  {
+    "id": "89dfc266-3308-45e7-bf5c-5d217b7f42dd",
+    "name": "Router",
+    "price": 25000.0,
+    "quantity": 8,
+    "description": "Network device"
+  },
+  {
+    "id": "fda67804-e465-4a89-bd9a-5796739effc5",
+    "name": "Server",
+    "price": 1.7998727E7,
+    "quantity": 88,
+    "description": "Server Computer"
+  },
+  {
+    "id": "6765ed2d-a87d-488f-bbac-8af575c85b5f",
+    "name": "Keyboard",
+    "price": 78727.0,
+    "quantity": 8,
+    "description": "Accessories Computer"
+  }
+]
