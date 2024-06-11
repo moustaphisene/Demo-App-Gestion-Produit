@@ -1,0 +1,247 @@
+{
+  "authorities": [
+    {
+      "authority": "SCOPE_email"
+    },
+    {
+      "authority": "offline_access"
+    },
+    {
+      "authority": "uma_authorization"
+    },
+    {
+      "authority": "default-roles-demo-security-web"
+    },
+    {
+      "authority": "USER"
+    },
+    {
+      "authority": "SCOPE_profile"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": null
+  },
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICItLVJkcWNJQ1lzTF9TU3ZnNjJieW9ES2xXVWJpc0RXeDB3V0ZXdFgyMExrIn0.eyJleHAiOjE3MTY4MjQzMjYsImlhdCI6MTcxNjgyNDAyNiwianRpIjoiZDRlNzBlYjktNTUwMC00ZDBjLTljMGYtMmMwOTMwOWY4NGM4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9kZW1vLXNlY3VyaXR5LXdlYiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIyM2JiN2ZhNi0xNzU5LTQ0ZmItYTI5My1kZGY1YTE2Y2ZmZjEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJmcm9udC1hcHAtZGVtbyIsInNlc3Npb25fc3RhdGUiOiJmM2YzMzY5OC1mMTU0LTQ2NmMtOWQ0ZS1kZThkZDBhYzE3ZmUiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDIwMCJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtZGVtby1zZWN1cml0eS13ZWIiLCJVU0VSIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiZjNmMzM2OTgtZjE1NC00NjZjLTlkNGUtZGU4ZGQwYWMxN2ZlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiTW91c3RhcGhhIFNFTkUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VybmFtZTEiLCJnaXZlbl9uYW1lIjoiTW91c3RhcGhhIiwiZmFtaWx5X25hbWUiOiJTRU5FIiwiZW1haWwiOiJ1c2VybmFtZTFAZ21haWwuY29tIn0.c9ALysbhsiQ_Z1ABA0lsN3WPLPQLy0-n9nLYnBakPNCjYruL9hSBLqzeqcRNrsbPanXJU95HrzwaxrStIp4WBOPUKTSTO4WdEJMCVWRHpsrWFplfPLVe3RhagsbEknS3ooO4BEF1vw5rsK7ZfCzpjIOx0OEBJjgRyGwXk5KKMBO_jqJlj5BPeA8LDUlOlB0mQoOLsxbdb8MXZQ8J1QjclWkUUjXEggQWkQinJg4JIz1e5HLpuSwaEBV1xEFJhrgbz2eXeB7CQ15vxIBGs21KDC9kots3KF8FtD7fMDo4QEA9Kse6QSYr-CyZecJOV713GpCtyH_QKFkfsCEP1nRjgg",
+    "issuedAt": "2024-05-27T15:33:46Z",
+    "expiresAt": "2024-05-27T15:38:46Z",
+    "headers": {
+      "kid": "--RdqcICYsL_SSvg62byoDKlWUbisDWx0wWFWtX20Lk",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "23bb7fa6-1759-44fb-a293-ddf5a16cfff1",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/demo-security-web",
+      "typ": "Bearer",
+      "preferred_username": "username1",
+      "given_name": "Moustapha",
+      "sid": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "default-roles-demo-security-web",
+          "USER"
+        ]
+      },
+      "azp": "front-app-demo",
+      "scope": "profile email",
+      "name": "Moustapha SENE",
+      "exp": "2024-05-27T15:38:46Z",
+      "session_state": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+      "iat": "2024-05-27T15:33:46Z",
+      "family_name": "SENE",
+      "jti": "d4e70eb9-5500-4d0c-9c0f-2c09309f84c8",
+      "email": "username1@gmail.com"
+    },
+    "subject": "23bb7fa6-1759-44fb-a293-ddf5a16cfff1",
+    "id": "d4e70eb9-5500-4d0c-9c0f-2c09309f84c8",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/demo-security-web"
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICItLVJkcWNJQ1lzTF9TU3ZnNjJieW9ES2xXVWJpc0RXeDB3V0ZXdFgyMExrIn0.eyJleHAiOjE3MTY4MjQzMjYsImlhdCI6MTcxNjgyNDAyNiwianRpIjoiZDRlNzBlYjktNTUwMC00ZDBjLTljMGYtMmMwOTMwOWY4NGM4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9kZW1vLXNlY3VyaXR5LXdlYiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIyM2JiN2ZhNi0xNzU5LTQ0ZmItYTI5My1kZGY1YTE2Y2ZmZjEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJmcm9udC1hcHAtZGVtbyIsInNlc3Npb25fc3RhdGUiOiJmM2YzMzY5OC1mMTU0LTQ2NmMtOWQ0ZS1kZThkZDBhYzE3ZmUiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDIwMCJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtZGVtby1zZWN1cml0eS13ZWIiLCJVU0VSIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiZjNmMzM2OTgtZjE1NC00NjZjLTlkNGUtZGU4ZGQwYWMxN2ZlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiTW91c3RhcGhhIFNFTkUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VybmFtZTEiLCJnaXZlbl9uYW1lIjoiTW91c3RhcGhhIiwiZmFtaWx5X25hbWUiOiJTRU5FIiwiZW1haWwiOiJ1c2VybmFtZTFAZ21haWwuY29tIn0.c9ALysbhsiQ_Z1ABA0lsN3WPLPQLy0-n9nLYnBakPNCjYruL9hSBLqzeqcRNrsbPanXJU95HrzwaxrStIp4WBOPUKTSTO4WdEJMCVWRHpsrWFplfPLVe3RhagsbEknS3ooO4BEF1vw5rsK7ZfCzpjIOx0OEBJjgRyGwXk5KKMBO_jqJlj5BPeA8LDUlOlB0mQoOLsxbdb8MXZQ8J1QjclWkUUjXEggQWkQinJg4JIz1e5HLpuSwaEBV1xEFJhrgbz2eXeB7CQ15vxIBGs21KDC9kots3KF8FtD7fMDo4QEA9Kse6QSYr-CyZecJOV713GpCtyH_QKFkfsCEP1nRjgg",
+    "issuedAt": "2024-05-27T15:33:46Z",
+    "expiresAt": "2024-05-27T15:38:46Z",
+    "headers": {
+      "kid": "--RdqcICYsL_SSvg62byoDKlWUbisDWx0wWFWtX20Lk",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "23bb7fa6-1759-44fb-a293-ddf5a16cfff1",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/demo-security-web",
+      "typ": "Bearer",
+      "preferred_username": "username1",
+      "given_name": "Moustapha",
+      "sid": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "default-roles-demo-security-web",
+          "USER"
+        ]
+      },
+      "azp": "front-app-demo",
+      "scope": "profile email",
+      "name": "Moustapha SENE",
+      "exp": "2024-05-27T15:38:46Z",
+      "session_state": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+      "iat": "2024-05-27T15:33:46Z",
+      "family_name": "SENE",
+      "jti": "d4e70eb9-5500-4d0c-9c0f-2c09309f84c8",
+      "email": "username1@gmail.com"
+    },
+    "subject": "23bb7fa6-1759-44fb-a293-ddf5a16cfff1",
+    "id": "d4e70eb9-5500-4d0c-9c0f-2c09309f84c8",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/demo-security-web"
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICItLVJkcWNJQ1lzTF9TU3ZnNjJieW9ES2xXVWJpc0RXeDB3V0ZXdFgyMExrIn0.eyJleHAiOjE3MTY4MjQzMjYsImlhdCI6MTcxNjgyNDAyNiwianRpIjoiZDRlNzBlYjktNTUwMC00ZDBjLTljMGYtMmMwOTMwOWY4NGM4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9kZW1vLXNlY3VyaXR5LXdlYiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIyM2JiN2ZhNi0xNzU5LTQ0ZmItYTI5My1kZGY1YTE2Y2ZmZjEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJmcm9udC1hcHAtZGVtbyIsInNlc3Npb25fc3RhdGUiOiJmM2YzMzY5OC1mMTU0LTQ2NmMtOWQ0ZS1kZThkZDBhYzE3ZmUiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDIwMCJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtZGVtby1zZWN1cml0eS13ZWIiLCJVU0VSIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiZjNmMzM2OTgtZjE1NC00NjZjLTlkNGUtZGU4ZGQwYWMxN2ZlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiTW91c3RhcGhhIFNFTkUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VybmFtZTEiLCJnaXZlbl9uYW1lIjoiTW91c3RhcGhhIiwiZmFtaWx5X25hbWUiOiJTRU5FIiwiZW1haWwiOiJ1c2VybmFtZTFAZ21haWwuY29tIn0.c9ALysbhsiQ_Z1ABA0lsN3WPLPQLy0-n9nLYnBakPNCjYruL9hSBLqzeqcRNrsbPanXJU95HrzwaxrStIp4WBOPUKTSTO4WdEJMCVWRHpsrWFplfPLVe3RhagsbEknS3ooO4BEF1vw5rsK7ZfCzpjIOx0OEBJjgRyGwXk5KKMBO_jqJlj5BPeA8LDUlOlB0mQoOLsxbdb8MXZQ8J1QjclWkUUjXEggQWkQinJg4JIz1e5HLpuSwaEBV1xEFJhrgbz2eXeB7CQ15vxIBGs21KDC9kots3KF8FtD7fMDo4QEA9Kse6QSYr-CyZecJOV713GpCtyH_QKFkfsCEP1nRjgg",
+    "issuedAt": "2024-05-27T15:33:46Z",
+    "expiresAt": "2024-05-27T15:38:46Z",
+    "headers": {
+      "kid": "--RdqcICYsL_SSvg62byoDKlWUbisDWx0wWFWtX20Lk",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "23bb7fa6-1759-44fb-a293-ddf5a16cfff1",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/demo-security-web",
+      "typ": "Bearer",
+      "preferred_username": "username1",
+      "given_name": "Moustapha",
+      "sid": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "default-roles-demo-security-web",
+          "USER"
+        ]
+      },
+      "azp": "front-app-demo",
+      "scope": "profile email",
+      "name": "Moustapha SENE",
+      "exp": "2024-05-27T15:38:46Z",
+      "session_state": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+      "iat": "2024-05-27T15:33:46Z",
+      "family_name": "SENE",
+      "jti": "d4e70eb9-5500-4d0c-9c0f-2c09309f84c8",
+      "email": "username1@gmail.com"
+    },
+    "subject": "23bb7fa6-1759-44fb-a293-ddf5a16cfff1",
+    "id": "d4e70eb9-5500-4d0c-9c0f-2c09309f84c8",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/demo-security-web"
+  },
+  "name": "username1",
+  "tokenAttributes": {
+    "sub": "23bb7fa6-1759-44fb-a293-ddf5a16cfff1",
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "email_verified": false,
+    "allowed-origins": [
+      "http://localhost:4200"
+    ],
+    "iss": "http://localhost:8080/realms/demo-security-web",
+    "typ": "Bearer",
+    "preferred_username": "username1",
+    "given_name": "Moustapha",
+    "sid": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+    "aud": [
+      "account"
+    ],
+    "acr": "1",
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "uma_authorization",
+        "default-roles-demo-security-web",
+        "USER"
+      ]
+    },
+    "azp": "front-app-demo",
+    "scope": "profile email",
+    "name": "Moustapha SENE",
+    "exp": "2024-05-27T15:38:46Z",
+    "session_state": "f3f33698-f154-466c-9d4e-de8dd0ac17fe",
+    "iat": "2024-05-27T15:33:46Z",
+    "family_name": "SENE",
+    "jti": "d4e70eb9-5500-4d0c-9c0f-2c09309f84c8",
+    "email": "username1@gmail.com"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "authorities": [
+    {
+      "authority": "SCOPE_email"
+    },
+    {
+      "authority": "offline_access"
+    },
+    {
+      "authority": "uma_authorization"
+    },
+    {
+      "authority": "default-roles-demo-security-web"
+    },
+    {
+      "authority": "SCOPE_profile"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": null
+  },
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICItLVJkcWNJQ1lzTF9TU3ZnNjJieW9ES2xXVWJpc0RXeDB3V0ZXdFgyMExrIn0.eyJleHAiOjE3MTY4MjY1NDEsImlhdCI6MTcxNjgyNjI0MSwianRpIjoiNzM0ZGVhNWEtMmJjNC00NjgyLTlmOWEtMzdmOWMxMmM4MDk4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9kZW1vLXNlY3VyaXR5LXdlYiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0MDUwODU3Yi1mMGVkLTQzMTItOTk1ZC1lOTk2YzJiMzdkZDgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJmcm9udC1hcHAtZGVtbyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo0MjAwIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1kZW1vLXNlY3VyaXR5LXdlYiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImNsaWVudEhvc3QiOiIxNzIuMTcuMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtZnJvbnQtYXBwLWRlbW8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE3LjAuMSIsImNsaWVudF9pZCI6ImZyb250LWFwcC1kZW1vIn0.t5f0Ur3vvwLzSmonjDa6eHcdyysZDKJzjK0Y2EAWnRZV62cu0HJXxWL8-gASjImRBhr9zmq0ThQ_jkH7StOadytRFULTaXiEDXeRAHjfHtITMq76NYNZ_aKjTkAXFCg46KxBkYeL6r9KmhnvHGpiGekXl8EG10T_ZxyQAy0aSyDXt1Tk89o50Dm9BlgWCJmHEx_nr7IOVV_VxvCGrTIyXremT2OzEykFsdKT3Ie3D9Veu_2S4g0Gx2X1QyNGKeKGVQEVWtuKmS2OAFifUEGSOsuaUTYm11Kep3Rqd6hku3RQfZJlzmpIDwt_aJP1kCcqUKDdrZ-4BH8nYKOON-TZKA",
+    "issuedAt": "2024-05-27T16:10:41Z",
+    "expiresAt": "2024-05-27T16:15:41Z",
+    "headers": {
+      "kid": "--RdqcICYsL_SSvg62byoDKlWUbisDWx0wWFWtX20Lk",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "4050857b-f0ed-4312-995d-e996c2b37dd8",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "clientHost": "172.17.0.1",
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/demo-security-web",
+      "typ": "Bearer",
+      "preferred_username": "service-account-front-app-demo",
+      "clientAddress": "172.17.0.1",
+      "client_id": "front-app-demo",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "default-roles-demo-security-web"
+        ]
+      },
+      "azp": "front-app-demo",
+      "scope": "profile email",
+      "exp": "2024-05-27T16:15:41Z",
+      "iat": "2024-05-27T16:10:41Z",
+      "jti": "734dea5a-2bc4-4682-9f9a-37f9c12c8098"
+    },
+    "subject": "4050857b-f0ed-4312-995d-e996c2b37dd8",
+    "id": "734dea5a-2bc4-4682-9f9a-37f9c12c8098",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/demo-security-web"
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICItLVJkcWNJQ1lzTF9TU3ZnNjJieW9ES2xXVWJpc0RXeDB3V0ZXdFgyMExrIn0.eyJleHAiOjE3MTY4MjY1NDEsImlhdCI6MTcxNjgyNjI0MSwianRpIjoiNzM0ZGVhNWEtMmJjNC00NjgyLTlmOWEtMzdmOWMxMmM4MDk4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9kZW1vLXNlY3VyaXR5LXdlYiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0MDUwODU3Yi1mMGVkLTQzMTItOTk1ZC1lOTk2YzJiMzdkZDgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJmcm9udC1hcHAtZGVtbyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo0MjAwIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1kZW1vLXNlY3VyaXR5LXdlYiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImNsaWVudEhvc3QiOiIxNzIuMTcuMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtZnJvbnQtYXBwLWRlbW8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE3LjAuMSIsImNsaWVudF9pZCI6ImZyb250LWFwcC1kZW1vIn0.t5f0Ur3vvwLzSmonjDa6eHcdyysZDKJzjK0Y2EAWnRZV62cu0HJXxWL8-gASjImRBhr9zmq0ThQ_jkH7StOadytRFULTaXiEDXeRAHjfHtITMq76NYNZ_aKjTkAXFCg46KxBkYeL6r9KmhnvHGpiGekXl8EG10T_ZxyQAy0aSyDXt1Tk89o50Dm9BlgWCJmHEx_nr7IOVV_VxvCGrTIyXremT2OzEykFsdKT3Ie3D9Veu_2S4g0Gx2X1QyNGKeKGVQEVWtuKmS2OAFifUEGSOsuaUTYm11Kep3Rqd6hku3RQfZJlzmpIDwt_aJP1kCcqUKDdrZ-4BH8nYKOON-TZKA",
+    "issuedAt": "2024-05-27T16:10:41Z",
+    "expiresAt": "2024-05-27T16:15:41Z",
+    "headers": {
+      "kid": "--RdqcICYsL_SSvg62byoDKlWUbisDWx0wWFWtX20Lk",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "4050857b-f0ed-4312-995d-e996c2b37dd8",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "clientHost": "172.17.0.1",
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/demo-security-web",
+      "typ": "Bearer",
+      "preferred_username": "service-account-front-app-demo",
+      "clientAddress": "172.17.0.1",
+      "client_id": "front-app-demo",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "default-roles-demo-security-web"
+        ]
+      },
+      "azp": "front-app-demo",
+      "scope": "profile email",
+      "exp": "2024-05-27T16:15:41Z",
+      "iat": "2024-05-27T16:10:41Z",
+      "jti": "734dea5a-2bc4-4682-9f9a-37f9c12c8098"
+    },
+    "subject": "4050857b-f0ed-4312-995d-e996c2b37dd8",
+    "id": "734dea5a-2bc4-4682-9f9a-37f9c12c8098",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/demo-security-web"
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICItLVJkcWNJQ1lzTF9TU3ZnNjJieW9ES2xXVWJpc0RXeDB3V0ZXdFgyMExrIn0.eyJleHAiOjE3MTY4MjY1NDEsImlhdCI6MTcxNjgyNjI0MSwianRpIjoiNzM0ZGVhNWEtMmJjNC00NjgyLTlmOWEtMzdmOWMxMmM4MDk4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9kZW1vLXNlY3VyaXR5LXdlYiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0MDUwODU3Yi1mMGVkLTQzMTItOTk1ZC1lOTk2YzJiMzdkZDgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJmcm9udC1hcHAtZGVtbyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo0MjAwIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1kZW1vLXNlY3VyaXR5LXdlYiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImNsaWVudEhvc3QiOiIxNzIuMTcuMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtZnJvbnQtYXBwLWRlbW8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE3LjAuMSIsImNsaWVudF9pZCI6ImZyb250LWFwcC1kZW1vIn0.t5f0Ur3vvwLzSmonjDa6eHcdyysZDKJzjK0Y2EAWnRZV62cu0HJXxWL8-gASjImRBhr9zmq0ThQ_jkH7StOadytRFULTaXiEDXeRAHjfHtITMq76NYNZ_aKjTkAXFCg46KxBkYeL6r9KmhnvHGpiGekXl8EG10T_ZxyQAy0aSyDXt1Tk89o50Dm9BlgWCJmHEx_nr7IOVV_VxvCGrTIyXremT2OzEykFsdKT3Ie3D9Veu_2S4g0Gx2X1QyNGKeKGVQEVWtuKmS2OAFifUEGSOsuaUTYm11Kep3Rqd6hku3RQfZJlzmpIDwt_aJP1kCcqUKDdrZ-4BH8nYKOON-TZKA",
+    "issuedAt": "2024-05-27T16:10:41Z",
+    "expiresAt": "2024-05-27T16:15:41Z",
+    "headers": {
+      "kid": "--RdqcICYsL_SSvg62byoDKlWUbisDWx0wWFWtX20Lk",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "4050857b-f0ed-4312-995d-e996c2b37dd8",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "clientHost": "172.17.0.1",
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/demo-security-web",
+      "typ": "Bearer",
+      "preferred_username": "service-account-front-app-demo",
+      "clientAddress": "172.17.0.1",
+      "client_id": "front-app-demo",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "default-roles-demo-security-web"
+        ]
+      },
+      "azp": "front-app-demo",
+      "scope": "profile email",
+      "exp": "2024-05-27T16:15:41Z",
+      "iat": "2024-05-27T16:10:41Z",
+      "jti": "734dea5a-2bc4-4682-9f9a-37f9c12c8098"
+    },
+    "subject": "4050857b-f0ed-4312-995d-e996c2b37dd8",
+    "id": "734dea5a-2bc4-4682-9f9a-37f9c12c8098",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/demo-security-web"
+  },
+  "name": "service-account-front-app-demo",
+  "tokenAttributes": {
+    "sub": "4050857b-f0ed-4312-995d-e996c2b37dd8",
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "clientHost": "172.17.0.1",
+    "email_verified": false,
+    "allowed-origins": [
+      "http://localhost:4200"
+    ],
+    "iss": "http://localhost:8080/realms/demo-security-web",
+    "typ": "Bearer",
+    "preferred_username": "service-account-front-app-demo",
+    "clientAddress": "172.17.0.1",
+    "client_id": "front-app-demo",
+    "aud": [
+      "account"
+    ],
+    "acr": "1",
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "uma_authorization",
+        "default-roles-demo-security-web"
+      ]
+    },
+    "azp": "front-app-demo",
+    "scope": "profile email",
+    "exp": "2024-05-27T16:15:41Z",
+    "iat": "2024-05-27T16:10:41Z",
+    "jti": "734dea5a-2bc4-4682-9f9a-37f9c12c8098"
+  }
+}
